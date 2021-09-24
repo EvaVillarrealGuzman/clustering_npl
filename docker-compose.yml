@@ -1,0 +1,19 @@
+version: "3.6"
+services:
+  conda:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      -  ./src:/opt/notebooks/clustering
+      - conda_volume:/opt/conda
+    ports:
+      -  8888:8888
+    tty: true
+    container_name: conda
+    command: 
+      - /bin/bash
+
+# Creates a named volume to persist our database data
+volumes:
+    conda_volume:

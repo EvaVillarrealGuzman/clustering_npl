@@ -1,0 +1,9 @@
+numpy
+scipy
+jupyter
+nb_conda
+scikit-learn
+matplotlib
+pandas
+spacy
+gensim
