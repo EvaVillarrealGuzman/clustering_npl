@@ -1,5 +1,5 @@
-# Practico 1 - Clustering
-Trabajo de la cátegra "Text Mining". [Descripción del trabajo práctico](https://sites.google.com/unc.edu.ar/textmining2021/pr%C3%A1ctico/clustering?authuser=0).
+# Práctico 1 - Clustering
+Trabajo de la cátedra "Text Mining". [Descripción del trabajo práctico](https://sites.google.com/unc.edu.ar/textmining2021/pr%C3%A1ctico/clustering?authuser=0).
 
 El objetivo es encontrar grupos de palabras que puedan ser usados como clases de equivalencia en un corpus de texto general en castellano.
 
