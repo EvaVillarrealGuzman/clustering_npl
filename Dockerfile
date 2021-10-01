@@ -14,6 +14,7 @@ RUN pip install pyLDAvis
 RUN python -m spacy download es_core_news_sm
 
 RUN conda install -c conda-forge keras
+RUN conda install -c conda-forge wordcloud=1.6.0
 RUN pip install --upgrade gensim
 # Setup for Jupyter Notebook
 RUN groupadd -g 1000 jupyter && \
